@@ -25,3 +25,6 @@ Results:
 •	Detection distance = (Perceived signal * speed of sound)/2
 •	We collected some distance data, The distance to the nearest object is printed in the Serial Monitor window. for example: 3,5,6,7,11 as shown in the fig below.
 •	According to the length of each distance it makes a peak on the chart as shown below. 
+
+Conclusion:
+HC-SR04 ultrasonic distance sensor can be very useful for calculating distances perfectly with good accuracy. Short distances with firm objects can be measured at good angle with this. It is very easy to work with this sensor and very light using. For creating robotics eyes or simple chores, we can design projects using this sensor. It can be of a good performance if we want to make anything to avoid or sense obstacles in front of it and send signal to the system.
