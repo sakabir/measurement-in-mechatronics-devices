@@ -1,0 +1,27 @@
+The purpose of the measurement:
+•	In this project, the ultrasonic sensor reads and writes the distance to an object in the serial monitor.
+•	Implementing the switch that monitors the sensing range of the ultrasound sensor.
+•	presenting the sensing distance of the sensor with a led
+
+Components used in the measurement:
+•	Ultrasonic Distance Sensor that has four pins: VCC (Power), Trig (Trigger), Echo (Receive), and GND (Ground).
+•	Breadboard
+•	Jumper wires
+•	LED
+•	Load resistance
+•	Arduino UNO
+
+Method of the measurement:
+•	First, we connected the sensor to ground GND before plugging in the power supply 5V in arduino.
+•	Then we connected the sensor Echo and Trigger feet to the pins: (Echo=>10; Trig=>9).
+•	Thirdly, we connected the status LED to the output (12). 
+•	After that the led through the load resistance were connected.
+•	For the next step,  we wrote the code.
+•	The code was uploaded to the Arduino board. Then, we opened the Serial Monitor and plotter for output.
+•	During the measurement, the transmitter emits ultrasound pulses reflected by the transmitter sensing from the elements in the detection range.
+•	A short 10 µs pulse sent to input to start measuring, then the module sent an 8-cycle ultrasound signal at 40 kHz and analyzed its echo.
+Results:
+•	The signal coming from the sensor will first be converted to distance data: 
+•	Detection distance = (Perceived signal * speed of sound)/2
+•	We collected some distance data, The distance to the nearest object is printed in the Serial Monitor window. for example: 3,5,6,7,11 as shown in the fig below.
+•	According to the length of each distance it makes a peak on the chart as shown below. 
